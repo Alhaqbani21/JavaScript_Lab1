@@ -32,10 +32,9 @@ console.log('Q4');
 console.log(thingOne.concat(' and ', thingTwo));
 console.log('\n');
 
+// Q5
 let bill = 10.25 + 3.99 + 7.15;
-
 let tip = 0.15;
-
 total = bill * tip + bill;
 
 console.log(
