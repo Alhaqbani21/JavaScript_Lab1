@@ -83,9 +83,9 @@ if (bmi < 15) {
 //#####Q6#####
 console.log('\n#####Q6#####');
 // تغيير قيم `shirtWidth` و `shirtLength` و `shirtSleeve` لاختبار الشيفرة
-var shirtWidth = 19;
-var shirtLength = 28;
-var shirtSleeve = 8.13;
+var shirtWidth = 18;
+var shirtLength = 29;
+var shirtSleeve = 8.47;
 
 if (
   shirtWidth >= 18 &&
@@ -147,5 +147,5 @@ if (
     `1- Shirt width is ${shirtWidth}, Shirt length is ${shirtLength} and Shirt sleeve is ${shirtSleeve}-- Size is 3XL`
   );
 } else {
-  console.log('Error in resolving the size');
+  console.log('1- NA -> Error in resolving the size');
 }
