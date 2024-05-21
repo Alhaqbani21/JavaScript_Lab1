@@ -28,7 +28,9 @@ console.log(`Q3 \n${hour} hours = ${seconds} Seconds \n`);
 // Q4
 let thingOne = 'thingOne';
 let thingTwo = 'thingTwo';
-console.log('Q4\n' + thingOne + ' and ' + thingTwo + '\n');
+console.log('Q4');
+console.log(thingOne.concat(' and ', thingTwo));
+console.log('\n');
 
 let bill = 10.25 + 3.99 + 7.15;
 
