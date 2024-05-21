@@ -8,16 +8,15 @@ console.log(`Q1 \nArea of the tringle is ${area} \n`);
 
 // Q2
 let tempretureCelisues = 30;
-let tempretureFahrenheit = 70;
 
 let celisuesToFahrenheit = (tempretureCelisues * 9) / 5 + 32;
-let fahrenheitToCelisues = ((tempretureFahrenheit - 32) * 5) / 9;
+let fahrenheitToCelisues = ((celisuesToFahrenheit - 32) * 5) / 9;
 
 console.log(
   `Q2\n${tempretureCelisues}C is ${Math.round(celisuesToFahrenheit * 1) / 1}F`
 );
 console.log(
-  `${tempretureFahrenheit}F is ${Math.round(fahrenheitToCelisues * 1) / 1}F \n`
+  `${celisuesToFahrenheit}F is ${Math.round(fahrenheitToCelisues * 1) / 1}F \n`
 );
 
 // Q3
